@@ -7,9 +7,12 @@ h2,
 h3 {
   margin: 0; }
 
+body,
+a {
+  color: #fff; }
+
 body {
   background: #444;
-  color: #fff;
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
@@ -28,3 +31,6 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background-color: rgba(73, 73, 73, 0.5); }
+
+a {
+  text-decoration: none; }

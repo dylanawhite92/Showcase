@@ -11,9 +11,13 @@ h3 {
   margin: 0;
 }
 
+body,
+a {
+  color: #fff;
+}
+
 body {
   background: $primary-color;
-  color: #fff;
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
@@ -34,4 +38,8 @@ h3 {
     padding: 0.2rem 1rem;
     background-color: rgba(lighten($primary-color, 2), 0.5);
   }
+}
+
+a {
+  text-decoration: none;
 }
