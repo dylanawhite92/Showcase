@@ -11,9 +11,12 @@ body,
 a {
   color: #fff; }
 
+body,
+main {
+  height: 100%; }
+
 body {
   background: #444;
-  height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
@@ -42,3 +45,12 @@ header {
 
 .text-secondary {
   color: #eece1a; }
+
+main {
+  padding: 4rem; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: #eece1a; }
